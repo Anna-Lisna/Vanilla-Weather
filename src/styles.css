@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+}
+
+.container {
+  display: block;
+  margin: 30px auto;
+  width: 750px;
+}
+.container-main {
+  background: url("../images/fon.png") no-repeat;
+  display: flex;
+  justify-content: space-around;
+  height: 450px;
+}
+.image-weather img {
+  width: 150px;
+  margin-top: 150px;
+}
+.main-info,
+.main-temperature {
+  color: #fff;
+  font-size: 36px;
+  margin-top: 150px;
+}
+
+.main-temperature .active {
+  cursor: default;
+  color: #005078;
+}
+
+.main-temperature .active:hover {
+  text-decoration: none;
+}
+.container-temperature {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+}
+.weather-information {
+  list-style: none;
+  font-size: 20px;
+  padding: 0;
+}
+.card {
+  display: flex;
+  background: #005078;
+  justify-content: space-around;
+  padding: 20px;
+  border-right: 1px solid #fff;
+}
+
+.card-light {
+  background: #005a82;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 56px;
+}
+
+h5 {
+  color: #008cb4;
+  font-size: 24px;
+}
+
+.temparute-info {
+  color: #fff;
+  font-size: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.author {
+  display: block;
+  margin: 20px auto;
+  font-size: 20px;
+}
+
+.author > a {
+  color: #005a82;
+}
